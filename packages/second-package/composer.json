@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "YourMonorepo\\SecondPackage\\": "src"
+            "DalunSelf\\SecondPackage\\": "src"
         }
     }
 }

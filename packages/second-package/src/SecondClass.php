@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace YourMonorepo\SecondPackage;
+namespace DalunSelf\SecondPackage;
 
 final class SecondClass
 {
