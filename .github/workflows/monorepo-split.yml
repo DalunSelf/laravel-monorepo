@@ -26,5 +26,6 @@ jobs:
           repository_organization: 'DalunSelf'
           repository_name: '${{ matrix.package }}'
           branch: master
+          tag: ${{ steps.previous-tag.outputs.tag }}
           user_name: 'DalunSelf'
           user_email: 'dalunself@gmail.com'
