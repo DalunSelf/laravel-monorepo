@@ -20,16 +20,25 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $services = $containerConfigurator->services();
 
     // release workers - in order to execute
+    // $services->set(UpdateReplaceReleaseWorker::class);
+    // $services->set(SetCurrentMutualDependenciesReleaseWorker::class);
+    // $services->set(AddTagToChangelogReleaseWorker::class);
+    // $services->set(TagVersionReleaseWorker::class);
+    // $services->set(PushTagReleaseWorker::class);
+    // $services->set(SetNextMutualDependenciesReleaseWorker::class);
+    // $services->set(UpdateBranchAliasReleaseWorker::class);
+    // $services->set(PushNextDevReleaseWorker::class);
+
+    // Release workers - in order to execute
     $services->set(UpdateReplaceReleaseWorker::class);
     $services->set(SetCurrentMutualDependenciesReleaseWorker::class);
-    $services->set(AddTagToChangelogReleaseWorker::class);
     $services->set(TagVersionReleaseWorker::class);
     $services->set(PushTagReleaseWorker::class);
     $services->set(SetNextMutualDependenciesReleaseWorker::class);
     $services->set(UpdateBranchAliasReleaseWorker::class);
     $services->set(PushNextDevReleaseWorker::class);
 
-    $parameters->set(Option::DEFAULT_BRANCH_NAME, 'master');
+    // $parameters->set(Option::DEFAULT_BRANCH_NAME, 'master');
 
     $parameters->set(Option::PACKAGE_DIRECTORIES, [
         // default value
