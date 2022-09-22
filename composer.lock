@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "730ed72fb9468961bf32d1a041923819",
     "packages": [
         {
             "name": "brick/math",
@@ -7753,6 +7753,52 @@
                 }
             ],
             "time": "2022-09-16T13:45:54+00:00"
+        },
+        {
+            "name": "symplify/monorepo-builder",
+            "version": "11.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symplify/monorepo-builder.git",
+                "reference": "facb65fe6edd22dec46853bab05c79a76448e07b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symplify/monorepo-builder/zipball/facb65fe6edd22dec46853bab05c79a76448e07b",
+                "reference": "facb65fe6edd22dec46853bab05c79a76448e07b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "bin": [
+                "bin/monorepo-builder"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "10.3-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Prefixed version of Not only Composer tools to build a Monorepo.",
+            "support": {
+                "source": "https://github.com/symplify/monorepo-builder/tree/11.1.9"
+            },
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/rectorphp",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/tomasvotruba",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-09-02T10:08:20+00:00"
         },
         {
             "name": "theseer/tokenizer",
