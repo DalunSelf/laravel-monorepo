@@ -21,7 +21,7 @@ jobs:
         # uses: symplify/monorepo-split-github-action@2.1
         uses: symplify/github-action-monorepo-split@main
         env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: 'x-access-token:${{ secrets.ACCESS_TOKEN }}'
         with:
           # ref: ${{ github.head_ref }}
           package_directory: 'packages/${{ matrix.package }}'
