@@ -18,14 +18,14 @@ jobs:
       - id: previous-tag
         uses: 'WyriHaximus/github-action-get-previous-tag@master'
       - name: Monorepo Split of ${{ matrix.package }}
-        uses: symplify/github-action-monorepo-split@main
+        uses: symplify/github-action-monorepo-split@2.0
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           package_directory: 'packages/${{ matrix.package }}'
           repository_organization: 'DalunSelf'
           repository_name: '${{ matrix.package }}'
-          branch: main
+          branch: "main"
           tag: ${{ steps.previous-tag.outputs.tag }}
           user_name: 'DalunSelf'
           user_email: 'dalunself@gmail.com'
