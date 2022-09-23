@@ -38,7 +38,7 @@ return static function (ContainerConfigurator $containerConfigurator): void {
     $services->set(UpdateBranchAliasReleaseWorker::class);
     $services->set(PushNextDevReleaseWorker::class);
 
-    // $parameters->set(Option::DEFAULT_BRANCH_NAME, 'master');
+    $parameters->set(Option::DEFAULT_BRANCH_NAME, 'main');
 
     $parameters->set(Option::PACKAGE_DIRECTORIES, [
         // default value
