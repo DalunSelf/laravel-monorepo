@@ -8,5 +8,10 @@
         "psr-4": {
             "DalunSelf\\FirstPackage\\": "src"
         }
-    }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
