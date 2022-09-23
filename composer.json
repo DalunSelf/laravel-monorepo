@@ -61,8 +61,8 @@
         }
     },
     "replace": {
-        "dalunself/first": "1.0.15",
-        "dalunself/second": "1.0.15"
+        "dalunself/first": "1.0.16",
+        "dalunself/second": "1.0.16"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
