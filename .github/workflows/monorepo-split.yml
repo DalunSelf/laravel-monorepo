@@ -20,7 +20,7 @@ jobs:
       - name: Monorepo Split of ${{ matrix.package }}
         uses: symplify/monorepo-split-github-action@2.1
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           # ref: ${{ github.head_ref }}
           package_directory: 'packages/${{ matrix.package }}'
