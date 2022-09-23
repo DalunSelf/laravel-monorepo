@@ -11,8 +11,8 @@ jobs:
       fail-fast: false
       matrix:
         package:
-          - first-package
-          - second-package
+          - first
+          - second
     steps:
       - uses: actions/checkout@v2
       - id: previous-tag

@@ -1,5 +1,5 @@
 {
-    "name": "dalunself/second-package",
+    "name": "dalunself/second",
     "require": {
         "php": "^8.0.2",
         "symfony/dependency-injection": "^5.0"

@@ -26,8 +26,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "DalunSelf\\FirstPackage\\": "packages/first-package/src",
-            "DalunSelf\\SecondPackage\\": "packages/second-package/src",
+            "DalunSelf\\FirstPackage\\": "packages/first/src",
+            "DalunSelf\\SecondPackage\\": "packages/second/src",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
         }
@@ -61,8 +61,8 @@
         }
     },
     "replace": {
-        "dalunself/first-package": "1.0.14",
-        "dalunself/second-package": "1.0.14"
+        "dalunself/first": "1.0.15",
+        "dalunself/second": "1.0.15"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
